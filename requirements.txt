@@ -1,0 +1,51 @@
+# Core data manipulation and analysis
+numpy>=1.26.0
+pandas>=2.1.0
+scipy>=1.12.0
+
+# Visualization
+matplotlib>=3.8.0
+seaborn>=0.12.2
+plotly>=6.1.0
+holoviews>=2.9.0
+bokeh>=3.2.2
+
+# Time-series analysis and forecasting
+statsmodels>=1.3.0
+pmdarima>=2.2.0          # ARIMA and seasonal decomposition support
+prophet>=1.1.4           # Forecasting with Prophet
+tsfresh>=1.8.1           # Feature extraction from time-series
+sktime>=0.17.0            # Time-series machine learning
+
+# Machine Learning & Anomaly Detection
+scikit-learn>=1.3.0       # General ML tools (IsolationForest, OneClassSVM)
+pyod>=1.1.2               # Anomaly detection algorithms (IForest, KNN, AutoEncoder)
+xgboost>=1.7.6
+lightgbm>=4.4.0
+
+# Neural Networks / Deep Learning for advanced forecasting
+tensorflow>=2.20.0
+keras>=2.20.0
+torch>=2.1.0
+torchvision>=0.16.0
+torchmetrics>=1.2.0
+pytorch-lightning>=2.2.0
+
+# Utilities
+joblib>=1.3.2             # Save/load models efficiently
+tqdm>=4.66.1              # Progress bars
+python-dateutil>=2.9.0
+scikit-plot>=0.3.7        # Visualization utility for ML metrics
+
+# Optional: Data ingestion
+requests>=2.32.0
+pandas-datareader>=0.10.0
+
+# Optional: File formats (Excel, CSV)
+openpyxl>=3.1.2
+xlrd>=2.1.0
+
+# Optional: Interactive notebook support
+jupyter>=1.0.0
+notebook>=7.0.0
+ipython>=8.15.0
