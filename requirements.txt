@@ -7,11 +7,11 @@ scipy>=1.12.0
 matplotlib>=3.8.0
 seaborn>=0.12.2
 plotly>=6.1.0
-holoviews>=1.22.1
+holoviews>=1.22.0
 bokeh>=3.2.2
 
 # Time-series analysis and forecasting
-statsmodels>=1.3.0
+statsmodels>=0.14.5
 pmdarima>=2.2.0          # ARIMA and seasonal decomposition support
 prophet>=1.1.4           # Forecasting with Prophet
 tsfresh>=1.8.1           # Feature extraction from time-series
